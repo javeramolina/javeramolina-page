@@ -1,0 +1,19 @@
+.lang-selector {
+    text-align: right;
+    margin-top: 1rem;
+  }
+  
+  .lang-selector select {
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .lang-selector select:hover {
+    border-color: #007bff;
+    background-color: #f1f9ff;
+  }
+  
