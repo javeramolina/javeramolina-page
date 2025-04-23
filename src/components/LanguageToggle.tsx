@@ -4,7 +4,8 @@ import './LanguageToggle.css';
 export default function LanguageToggle() {
   const { i18n } = useTranslation();
 
-  const changeLanguage = (e) => {
+  const changeLanguage = (e: React.ChangeEvent<HTMLSelectElement>) => {
+    console.log(e);
     i18n.changeLanguage(e.target.value);
   };
 

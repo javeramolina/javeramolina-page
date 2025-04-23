@@ -1,4 +1,7 @@
-export default function Header({ title }) {
-    return <h1>{title}</h1>;
-  }
-  
+type HeaderProps = {
+  title: string;
+};
+
+export const Header = ({ title }: HeaderProps) => {
+  return <h1>{title}</h1>;
+};

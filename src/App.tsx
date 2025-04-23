@@ -1,8 +1,8 @@
 import { useTranslation } from 'react-i18next';
-import Header from './components/Header.js';
-import Home from './components/Home.js';
-import About from './components/About.js';
-import Service from './components/Service.js';
+import {Header} from './components/Header';
+import {Home} from './components/Home';
+import About from './components/About';
+import Service from './components/Service';
 
 
 

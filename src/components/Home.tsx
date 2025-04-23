@@ -1,4 +1,7 @@
-export default function About({ title }) {
-    return <section><h2>{title}</h2><p>This is your HOME...</p></section>;
-  }
-  
+type HeaderProps = {
+  title: string;
+};
+
+export const Home = ({ title }: HeaderProps) => {
+  return <h1>{title}</h1>;
+};
