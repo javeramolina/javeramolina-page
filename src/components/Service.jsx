@@ -4,12 +4,9 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 import "../assets/css/styles.css"; // Make sure to move custom styles here
 
 
-const Services = () => {
+const Service = () => {
   return (
-    <>     
-        {//
-
-//<!-- Services -->
+   
     <div id="services" className="basic-2">
         <div className="container">
             <div className="row">
@@ -45,14 +42,7 @@ const Services = () => {
     </div> 
     
 
-//
-
-
-
-        }
-
-    </>
   );
 };
 
-export default About;
+export default Service;

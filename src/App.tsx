@@ -3,7 +3,8 @@ import { useTranslation } from 'react-i18next';
 import Home from './components/Home';
 import Header from './components/Header';
 import About from './components/About';
-import Services from './components/Services';
+import Service from './components/Service';
+
 
 
 export default function App() {
@@ -14,7 +15,7 @@ export default function App() {
       
       <Header title={t('welcome')} />
       <Home title={t('home')} />
-      <Services></Services>
+      <Service></Service>
       <About title={t('about')} />
     </div>
   );
