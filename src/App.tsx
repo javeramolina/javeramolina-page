@@ -18,10 +18,6 @@ export default function App() {
 
   return (
     <div>
-      {/*
-      <Header title={t('welcome')} />
-      <Home title={t('home')} />
-      */}
       <Service nameCreator={t('nameCreator')} motivationalPhrase={t('motivationalPhrase')} ></Service>
       <SocialNetworks></SocialNetworks>
       <WhyWorkWithMe></WhyWorkWithMe>

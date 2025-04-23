@@ -107,15 +107,7 @@ const About = () => {
         </div> 
     </div> 
 </div> 
-//<!-- end of about -->
-        }
-        {
-//
 
-//<!-- Services -->
-    
-
-//
 
 
 
