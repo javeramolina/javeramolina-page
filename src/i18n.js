@@ -7,6 +7,8 @@ const resources = {
       welcome: "Welcome to my site!",
       about: "About Me",
       home: "Home",
+      nameCreator: "Jesús Alejandro Vera Molina",
+      motivationalPhrase: "Learn. Build. Share. Connect. Inspire. Grow."
       // Add more keys here...
     },
   },
@@ -15,6 +17,8 @@ const resources = {
       welcome: "¡Bienvenido a mi sitio!",
       about: "Sobre mí",
       home: "Casa",
+      nameCreator: "Jesús Alejandro Vera Molina",
+      motivationalPhrase: "Aprende. Construye. Comparte. Conecta. Inspira. Crece."
       // Add more keys here...
     },
   },

@@ -6,6 +6,10 @@ import Service from './components/Service';
 import SocialNetworks from './components/SocialNetworks'
 import WhyWorkWithMe from './components/WhyWorkWithMe'
 import Projects from './components/Projects'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
+import Copyright from './components/Copyright.tsx'
+
 
 
 
@@ -14,14 +18,18 @@ export default function App() {
 
   return (
     <div>
-      
+      {/*
       <Header title={t('welcome')} />
       <Home title={t('home')} />
-      <Service></Service>
+      */}
+      <Service nameCreator={t('nameCreator')} motivationalPhrase={t('motivationalPhrase')} ></Service>
       <SocialNetworks></SocialNetworks>
       <WhyWorkWithMe></WhyWorkWithMe>
       <Projects></Projects>
+      <Contact></Contact>
       <About/>
+      <Footer></Footer>
+      <Copyright></Copyright>
     </div>
   );
 }

@@ -3,15 +3,21 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 import "../assets/css/styles.css"; // Make sure to move custom styles here
 
 
-const Service = () => {
+type HeaderProps = {
+    nameCreator: string;
+    motivationalPhrase: string  
+  };
+  
+
+const Service = ({ nameCreator,motivationalPhrase }: HeaderProps) => {
   return (
    
     <div id="services" className="basic-2">
         <div className="container">
             <div className="row">
                 <div className="col-lg-12">
-                    <h2 className="h2-heading">Offered services</h2>
-                    <p className="p-heading">Web design and development have been my bread and butter for more than 5 years. During that time I've discovered that I can help startups and companies with the following services</p>
+                    <h2 className="h2-heading">{nameCreator}</h2>
+                    <p className="p-heading">{motivationalPhrase}</p>
                 </div> 
             </div> 
             <div className="row">
