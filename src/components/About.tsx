@@ -2,7 +2,7 @@ import "../assets/css/bootstrap.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "../assets/css/styles.css"; // Make sure to move custom styles here
 import logos from "../assets/images/logo.svg";
-import LanguageToggle from './LanguageToggle';
+import LanguageToggle from './LanguageToggle.tsx';
 
 const About = () => {
   return (
