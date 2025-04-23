@@ -1,4 +1,3 @@
-import React from "react";
 import "../assets/css/bootstrap.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "../assets/css/styles.css"; // Make sure to move custom styles here

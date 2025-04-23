@@ -1,9 +1,8 @@
-import React from 'react';
 import { useTranslation } from 'react-i18next';
-import Home from './components/Home';
-import Header from './components/Header';
-import About from './components/About';
-import Service from './components/Service';
+import Header from './components/Header.js';
+import Home from './components/Home.js';
+import About from './components/About.js';
+import Service from './components/Service.js';
 
 
 
@@ -16,7 +15,7 @@ export default function App() {
       <Header title={t('welcome')} />
       <Home title={t('home')} />
       <Service></Service>
-      <About title={t('about')} />
+      <About/>
     </div>
   );
 }
