@@ -1,75 +1,16 @@
 import "../assets/css/bootstrap.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
-import "../assets/css/styles.css"; // Make sure to move custom styles here
-import logos from "../assets/images/logo.svg";
 import LanguageToggle from './LanguageToggle.tsx';
+import WhatsAppButton from './WhatAppButton.tsx';
 
 const About = () => {
   return (
     <>
       {/* Navigation */}
       <nav className="navbar navbar-expand-lg fixed-top navbar-dark">
-        <div className="container">
-          <a className="navbar-brand logo-image" href="/">
-            <img src={logos} alt="alternative" />
-          </a>
-          <button
-            className="navbar-toggler p-0 border-0"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasNavbar"
-          >
-          
-            
-          </button>
+        <div className="container">               
           <LanguageToggle />
-          <div className="navbar-collapse offcanvas-collapse" id="offcanvasNavbar">
-            <ul className="navbar-nav ms-auto">
-              <li className="nav-item">
-                <a className="nav-link" href="#header">Home</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#about">About</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#services">Services</a>
-              </li>
-              <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  href="#"
-                  id="dropdown01"
-                  data-bs-toggle="dropdown"
-                >
-                  Drop
-                </a>
-                <ul className="dropdown-menu" aria-labelledby="dropdown01">
-                  <li><a className="dropdown-item" href="/project">Project Details</a></li>
-                  <li><hr className="dropdown-divider" /></li>
-                  <li><a className="dropdown-item" href="/terms">Terms Conditions</a></li>
-                  <li><hr className="dropdown-divider" /></li>
-                  <li><a className="dropdown-item" href="/privacy">Privacy Policy</a></li>
-                </ul>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#contact">Contact</a>
-              </li>
-            </ul>
-            <span className="nav-item social-icons">
-              <span className="fa-stack">
-                <a href="#your-link">
-                  <i className="fas fa-circle fa-stack-2x"></i>
-                  <i className="fab fa-facebook-f fa-stack-1x"></i>
-                </a>
-              </span>
-              <span className="fa-stack">
-                <a href="#your-link">
-                  <i className="fas fa-circle fa-stack-2x"></i>
-                  <i className="fab fa-twitter fa-stack-1x"></i>
-                </a>
-              </span>
-            </span>
-          </div>
+          <WhatsAppButton/>          
         </div>
       </nav>
       <main>

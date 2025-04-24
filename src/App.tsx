@@ -5,10 +5,7 @@ import SocialNetworks from './components/SocialNetworks'
 import WhyWorkWithMe from './components/WhyWorkWithMe'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
-import Footer from './components/Footer'
 import Copyright from './components/Copyright.tsx'
-
-import WhatsAppButton from './components/WhatAppButton.tsx';
 
 export default function App() {
   const { t } = useTranslation();
@@ -20,9 +17,7 @@ export default function App() {
       <WhyWorkWithMe></WhyWorkWithMe>
       <Projects></Projects>
       <Contact></Contact>
-      <About/>    
-       <WhatsAppButton />
-      <Footer></Footer>
+      <About/>         
       <Copyright></Copyright>         
     </div>
   );

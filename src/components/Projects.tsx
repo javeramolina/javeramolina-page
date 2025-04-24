@@ -16,14 +16,7 @@ const Projects = () => {
             </div> 
             <div className="row">
                 <div className="col-lg-12">
-                    <div className="text-container">
-                        <div className="image-container">
-                            <a href="project.html">
-                                <img className="img-fluid" src={project1} alt="alternative"></img>
-                            </a>
-                        </div> 
-                        <p><strong>For:</strong> Jumbotron, <strong>Project:</strong> web design for their corporate websites and landing pages for marketing campaigns <a className="blue" href="project.html">details</a></p>
-                    </div> 
+                  
                     <div className="text-container">
                         <div className="image-container">
                             <a href="project.html">
@@ -39,15 +32,7 @@ const Projects = () => {
                             </a>
                         </div> 
                         <p><strong>For:</strong> Truevideo, <strong>Project:</strong> created a custom video editing and upload web app for this awesome team <a className="blue" href="project.html">details</a></p>
-                    </div> 
-                    <div className="text-container">
-                        <div className="image-container">
-                            <a href="project.html">
-                                <img className="img-fluid" src={project4} alt="alternative"></img>
-                            </a>
-                        </div>
-                        <p><strong>For:</strong> Evolosim, <strong>Project:</strong> complete redesign of their corporate website and platform update for their online shop <a className="blue" href="project.html">details</a></p>
-                    </div> 
+                    </div>  
                 </div> 
             </div> 
         </div> 
