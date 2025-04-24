@@ -8,8 +8,7 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Copyright from './components/Copyright.tsx'
 
-
-
+import WhatsAppButton from './components/WhatAppButton.tsx';
 
 export default function App() {
   const { t } = useTranslation();
@@ -21,9 +20,10 @@ export default function App() {
       <WhyWorkWithMe></WhyWorkWithMe>
       <Projects></Projects>
       <Contact></Contact>
-      <About/>
+      <About/>    
+       <WhatsAppButton />
       <Footer></Footer>
-      <Copyright></Copyright>
+      <Copyright></Copyright>         
     </div>
   );
 }
