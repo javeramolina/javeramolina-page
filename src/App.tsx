@@ -13,17 +13,43 @@ export default function App() {
   return (
     <div>
       <Service nameCreator={t('nameCreator')} motivationalPhrase={t('motivationalPhrase')} ></Service>
+
       <SocialNetworks></SocialNetworks>
+
       <WhyWorkWithMe 
        whyMeTitle={t('whyMeTitle')}
        whyMeText={t('whyMeText')}
        developSkillsTitle={t('developSkillsTitle')}
        developSkillsText={t('developSkillsText')}
        ></WhyWorkWithMe>
-      <Projects></Projects>
-      <Contact></Contact>
-      <About/>         
-      <Copyright></Copyright>         
+
+      <Projects    
+       projectTitle={t('projectTitle')}
+       projectText={t('projectText')}
+       byFor={t('byFor')}
+       project1Text={t('project1Text')}
+       project2Text={t('project2Text')}
+       detailText={t('detailText')}
+       projectNameText={t('projectNameText')}      
+      ></Projects>
+
+      <Contact
+      contactTitle={t('contactTitle')}
+      contactStartText={t('contactStartText')}
+      contactEndText={t('contactEndText')}
+      nameText={t('nameText')}
+      projectDetailsText={t('projectDetailsText')}
+      buttonSubmitText={t('buttonSubmitText')}
+      ></Contact>
+
+      <About
+      hiThereTitle={t('hiThereTitle')}
+      hiThereText={t('hiThereText')}
+      
+      />         
+      <Copyright
+      copyrightText={t('copyrightText')}
+      ></Copyright>         
     </div>
   );
 }

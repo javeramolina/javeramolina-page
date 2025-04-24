@@ -3,7 +3,13 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 import LanguageToggle from './LanguageToggle.tsx';
 import WhatsAppButton from './WhatAppButton.tsx';
 
-const About = () => {
+
+type HeaderProps = {
+  hiThereTitle: string;
+  hiThereText: string ;
+};
+
+const About = ({hiThereTitle, hiThereText}:HeaderProps) => {
   return (
     <>
       {/* Navigation */}
@@ -21,8 +27,8 @@ const About = () => {
         <div className="row">
             <div className="col-lg-4">
                 <div className="text-container first">
-                    <h2>Hi there I'm JVera,</h2>
-                    <p>Every great project starts with a simple idea and the courage to act. If you’ve got one, let’s connect and make it happen</p>
+                    <h2>{hiThereTitle}</h2>
+                    <p>{hiThereText}</p>
                 </div> 
             </div> 
             
