@@ -834,9 +834,8 @@ input[type='checkbox'] {
 /*******************/
 /*     Contact     */
 /*******************/
-.form-1 {
-	padding-top: 7.75rem;
-	padding-bottom: 7rem;
+.form-1 {	
+	padding-bottom: 1rem;
 	text-align: center;
 }
 

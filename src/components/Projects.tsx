@@ -9,7 +9,7 @@ const Projects = () => {
             <div className="row">
                 <div className="col-lg-12">
                     <h2 className="h2-heading">Delivered projects</h2>
-                    <p className="p-heading">Listed below are some of the most representative projects I've worked on. They range from basic web design for presentation sites to advanced web development for online shops</p>
+                    <p className="p-heading">The current projects are just examples for now. Real ones will be available soon — stay tuned!</p>
                 </div> 
             </div> 
             <div className="row">
@@ -21,7 +21,7 @@ const Projects = () => {
                                 <img className="img-fluid" src={project2} alt="alternative"></img>
                             </a>
                         </div> 
-                        <p><strong>For:</strong> Carsrepo, <strong>Project:</strong> designed and developed modern platform for purchasing second hand cars online <a className="blue" href="project.html">details</a></p>
+                        <p><strong>For:</strong> jvera, <strong>Project:</strong> designed and developed modern platform for purchasing second hand cars online <a className="blue" href="project.html">details</a></p>
                     </div> 
                     <div className="text-container">
                         <div className="image-container">
@@ -29,7 +29,7 @@ const Projects = () => {
                                 <img className="img-fluid" src={project3} alt="alternative"></img>
                             </a>
                         </div> 
-                        <p><strong>For:</strong> Truevideo, <strong>Project:</strong> created a custom video editing and upload web app for this awesome team <a className="blue" href="project.html">details</a></p>
+                        <p><strong>For:</strong> jvera, <strong>Project:</strong> created a custom video editing and upload web app for this awesome team <a className="blue" href="project.html">details</a></p>
                     </div>  
                 </div> 
             </div> 
