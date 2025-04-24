@@ -26,7 +26,7 @@ const resources = {
       hiThereTitle: "Hi there I'm JVera",
       hiThereText:"Every great project starts with a simple idea and the courage to act. If you’ve got one, let’s connect and make it happen",
       copyrightText: "All rights reserved.",
-      nameText: "name",
+      nameText: "Name",
       projectDetailsText: "Project details",
       buttonSubmitText: "Submit"
      
@@ -57,7 +57,7 @@ const resources = {
       hiThereTitle: "Hola, soy JVera,",
       hiThereText:"Todo gran proyecto comienza con una idea sencilla y el valor para actuar. Si tienes una, conectemos y hagámosla realidad.",
       copyrightText: "Todos los derechos reservados.",
-      nameText: "nombre",
+      nameText: "Nombre",
       projectDetailsText: "Detalles proyectos",
       buttonSubmitText: "Enviar"
      
