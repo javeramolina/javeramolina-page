@@ -7,35 +7,23 @@ const SocialNetworks = () => {
                 <div className="col-lg-12">
                     <div className="social-container">
                         <span className="fa-stack">
-                            <a href="#your-link">
-                                <i className="fas fa-circle fa-stack-2x"></i>
-                                <i className="fab fa-facebook-f fa-stack-1x"></i>
-                            </a>
+                        <a href="https://github.com/tuusuario" target="_blank" rel="noopener noreferrer">
+                            <i className="fas fa-circle fa-stack-2x"></i>
+                            <i className="fab fa-github fa-stack-1x"></i>
+                        </a>
                         </span>
                         <span className="fa-stack">
-                            <a href="#your-link">
-                                <i className="fas fa-circle fa-stack-2x"></i>
-                                <i className="fab fa-twitter fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span className="fa-stack">
-                            <a href="#your-link">
-                                <i className="fas fa-circle fa-stack-2x"></i>
-                                <i className="fab fa-pinterest-p fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span className="fa-stack">
-                            <a href="#your-link">
-                                <i className="fas fa-circle fa-stack-2x"></i>
-                                <i className="fab fa-instagram fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span className="fa-stack">
-                            <a href="#your-link">
+                            <a href="https://www.youtube.com/@" target="_blank" rel="noopener noreferrer">
                                 <i className="fas fa-circle fa-stack-2x"></i>
                                 <i className="fab fa-youtube fa-stack-1x"></i>
                             </a>
                         </span>
+                        <span className="fa-stack">
+                        <a href="https://www.linkedin.com/in/tuusuario" target="_blank" rel="noopener noreferrer">
+                            <i className="fas fa-circle fa-stack-2x"></i>
+                            <i className="fab fa-linkedin-in fa-stack-1x"></i>
+                        </a>
+                    </span>
                     </div>
                 </div> 
             </div> 
