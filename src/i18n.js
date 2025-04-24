@@ -8,8 +8,12 @@ const resources = {
       about: "About Me",
       home: "Home",
       nameCreator: "Jesús Alejandro Vera Molina",
-      motivationalPhrase: "Learn. Build. Share. Connect. Inspire. Grow."
-      // Add more keys here...
+      motivationalPhrase: "Learn. Build. Share. Connect. Inspire. Grow.",
+      whyMeTitle: "Why Work With Me",
+      whyMeText: "I'm a passionate software developer who enjoys turning ideas into real, working solutions. I believe in clear communication, collaboration, and growing together, not just on a technical level, but as people with shared goals and curiosity. I’m genuinely interested in business and how technology can help ideas grow. Lately, I’ve been creating content on YouTube to share what I learn, explore new tools, and connect with others who love building and learning too. Whether it's code, conversation, or a new business idea, I'm always open to exchanging knowledge and creating something meaningful together. ",
+      developSkillsTitle: "DEVELOPMENT SKILLS",
+      developSkillsText: "Over 12 years of experience with Java, Spring Boot, Angular, and cloud platforms like GCP and AWS. I enjoy solving real-world problems, working with people, and turning ideas into meaningful projects or businesses. I believe in using tech to make a difference."
+     
     },
   },
   es: {
@@ -18,8 +22,11 @@ const resources = {
       about: "Sobre mí",
       home: "Casa",
       nameCreator: "Jesús Alejandro Vera Molina",
-      motivationalPhrase: "Aprende. Construye. Comparte. Conecta. Inspira. Crece."
-      // Add more keys here...
+      motivationalPhrase: "Aprende. Construye. Comparte. Conecta. Inspira. Crece.",
+      whyMeTitle: "Por qué trabajar conmigo",
+      whyMeText: "Soy un desarrollador de software apasionado que disfruta convertir ideas en soluciones reales y funcionales. Creo en la comunicación clara, la colaboración y en crecer juntos, no solo a nivel técnico, sino también como personas con metas y curiosidad compartidas. Me interesa genuinamente el mundo de los negocios y cómo la tecnología puede ayudar a que las ideas crezcan. Últimamente he estado creando contenido en YouTube para compartir lo que aprendo, explorar nuevas herramientas y conectar con otros que también disfrutan construir y aprender. Ya sea código, una conversación o una nueva idea de negocio, siempre estoy abierto a intercambiar conocimientos y crear algo significativo en conjunto.",
+      developSkillsTitle: "Habilidades de Desarrollo",
+      developSkillsText: "Más de 12 años de experiencia con Java, Spring Boot, Angular y plataformas cloud como GCP y AWS. Disfruto resolver problemas reales, colaborar con personas y convertir ideas en proyectos o negocios con propósito. Creo en la tecnología para generar impacto."
     },
   },
 };
